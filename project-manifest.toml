@@ -11,7 +11,7 @@ representative_level = "existing aggregate package startup; full gameplay not cl
 disc_count = 1
 serials = ["SLUS-00771"]
 executable_paths = ["disc/SLUS_007.71"]
-executable_sha256 = ""
+executable_sha256 = "fbc243ded05baa0b2d7b761cda498451a9dad2ea42cc58d192049d3dd5a04426"
 load_address = "0x80010000"
 entry_point = "0x80010008"
 
