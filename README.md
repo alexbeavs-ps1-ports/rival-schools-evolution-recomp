@@ -33,7 +33,7 @@ generated game code, or saved game.
 
 1. Download the setup ZIP for your platform from [Releases](https://github.com/Alexbeav/rival-schools-evolution-recomp/releases)
    and extract it into a writable folder.
-2. Start `Rival_Schools_Evolution_Disc` (`.exe` on Windows).
+2. Start `Rival_Schools_Evolution` (`.exe` on Windows).
 3. In the setup wizard select your disc image (the Redump CUE, or a CHD of the
    same dump) and your BIOS file.
 4. Run Generate & rebuild and wait for the game to start. The first run compiles
@@ -105,9 +105,9 @@ saves are preserved across updates.
 
 If the game crashes, freezes, or misbehaves, switch to the diagnostic build
 that first-run setup already produced (no recompiling): create an empty file
-named `diagnostic-mode.txt` next to `Rival_Schools_Evolution_Disc.exe` and start the game as
-usual, or run `Rival_Schools_Evolution_Disc.exe --diagnostic`. Reproduce the problem, quit, then
-run `Rival_Schools_Evolution_Disc.exe --collect-diagnostics`: it writes `diagnostics-<date>.zip`
+named `diagnostic-mode.txt` next to `Rival_Schools_Evolution.exe` and start the game as
+usual, or run `Rival_Schools_Evolution.exe --diagnostic`. Reproduce the problem, quit, then
+run `Rival_Schools_Evolution.exe --collect-diagnostics`: it writes `diagnostics-<date>.zip`
 next to the exe. Attach that zip to a GitHub issue on this repository with a
 short description of what you did. The zip holds only the runtime's report
 files, never saves, BIOS, or disc images. Delete `diagnostic-mode.txt` to go

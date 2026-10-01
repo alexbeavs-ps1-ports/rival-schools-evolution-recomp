@@ -84,7 +84,7 @@ exec bash "${PACKAGER}" \
   --build-dir "${BUILD_DIR}" \
   --artifact "${ARTIFACT_TAG}" \
   --zip-prefix rivalschoolsevolution \
-  --exe-name Rival_Schools_Evolution_Disc \
+  --exe-name Rival_Schools_Evolution \
   --omit-openbios \
   --display-name "Rival Schools: Evolution Disc" \
   --recompiler-build "${RECOMPILER_BUILD}" \
